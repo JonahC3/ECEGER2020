@@ -1,0 +1,17 @@
+SizeOfVariables	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_1\main.c	/^void SizeOfVariables(void){$/;"	function	line:4	signature:(void)	returns:void 
+c	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_1\main.c	/^	char c;$/;"	local	line:6
+s	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_1\main.c	/^	short s;$/;"	local	line:7
+i	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_1\main.c	/^	int i;$/;"	local	line:8
+ui	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_1\main.c	/^	unsigned int ui;$/;"	local	line:9
+ul	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_1\main.c	/^	unsigned long int ul;$/;"	local	line:10
+f	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_1\main.c	/^	float f;$/;"	local	line:11
+d	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_1\main.c	/^	double d;$/;"	local	line:12
+ld	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_1\main.c	/^	long double ld;$/;"	local	line:13
+ptr	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_1\main.c	/^	void *ptr;$/;"	local	line:14
+IsLeapYear	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_1\main.c	/^int IsLeapYear(int aYear){$/;"	function	line:30	signature:(int aYear)	returns:int 
+IsVowel	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_1\main.c	/^int IsVowel(char aLetter){$/;"	function	line:58	signature:(char aLetter)	returns:int 
+vowel	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_1\main.c	/^	char vowel[] = "aeiouAEIOU";$/;"	local	line:60
+ReverseNumber	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_1\main.c	/^void ReverseNumber(long aNumber){$/;"	function	line:89	signature:(long aNumber)	returns:void 
+num	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_1\main.c	/^	int num = 0;$/;"	local	line:91
+aNumber2	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_1\main.c	/^		long aNumber2 = aNumber*(-1);$/;"	local	line:108
+main	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_1\main.c	/^int main()$/;"	function	line:121	signature:()	returns:int 
