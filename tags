@@ -1,17 +1,37 @@
-SizeOfVariables	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_1\main.c	/^void SizeOfVariables(void){$/;"	function	line:4	signature:(void)	returns:void 
-c	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_1\main.c	/^	char c;$/;"	local	line:6
-s	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_1\main.c	/^	short s;$/;"	local	line:7
-i	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_1\main.c	/^	int i;$/;"	local	line:8
-ui	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_1\main.c	/^	unsigned int ui;$/;"	local	line:9
-ul	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_1\main.c	/^	unsigned long int ul;$/;"	local	line:10
-f	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_1\main.c	/^	float f;$/;"	local	line:11
-d	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_1\main.c	/^	double d;$/;"	local	line:12
-ld	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_1\main.c	/^	long double ld;$/;"	local	line:13
-ptr	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_1\main.c	/^	void *ptr;$/;"	local	line:14
-IsLeapYear	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_1\main.c	/^int IsLeapYear(int aYear){$/;"	function	line:30	signature:(int aYear)	returns:int 
-IsVowel	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_1\main.c	/^int IsVowel(char aLetter){$/;"	function	line:58	signature:(char aLetter)	returns:int 
-vowel	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_1\main.c	/^	char vowel[] = "aeiouAEIOU";$/;"	local	line:60
-ReverseNumber	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_1\main.c	/^void ReverseNumber(long aNumber){$/;"	function	line:89	signature:(long aNumber)	returns:void 
-num	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_1\main.c	/^	int num = 0;$/;"	local	line:91
-aNumber2	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_1\main.c	/^		long aNumber2 = aNumber*(-1);$/;"	local	line:108
-main	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_1\main.c	/^int main()$/;"	function	line:121	signature:()	returns:int 
+Factorial	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_2\main.c	/^long Factorial(long num){$/;"	function	line:4	signature:(long num)	returns:long 
+num1	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_2\main.c	/^	long num1 = num;$/;"	local	line:6
+i	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_2\main.c	/^	long i = num;$/;"	local	line:7
+IsPalindrome	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_2\main.c	/^int IsPalindrome(long value){$/;"	function	line:28	signature:(long value)	returns:int 
+reversed	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_2\main.c	/^	long reversed = 0, remainder, value2 = value;$/;"	local	line:31
+remainder	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_2\main.c	/^	long reversed = 0, remainder, value2 = value;$/;"	local	line:31
+value2	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_2\main.c	/^	long reversed = 0, remainder, value2 = value;$/;"	local	line:31
+HighestBitSet	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_2\main.c	/^int HighestBitSet(int value){$/;"	function	line:53	signature:(int value)	returns:int 
+order	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_2\main.c	/^   int order = -1, i;$/;"	local	line:55
+i	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_2\main.c	/^   int order = -1, i;$/;"	local	line:55
+c	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_2\main.c	/^	int c, k;$/;"	local	line:72
+k	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_2\main.c	/^	int c, k;$/;"	local	line:72
+ReverseIt	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_2\main.c	/^void ReverseIt(void){$/;"	function	line:90	signature:(void)	returns:void 
+num1	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_2\main.c	/^    float num1;$/;"	local	line:92
+num2	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_2\main.c	/^	float num2;$/;"	local	line:93
+num3	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_2\main.c	/^    float num3;$/;"	local	line:94
+num4	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_2\main.c	/^	float num4;$/;"	local	line:95
+num5	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_2\main.c	/^    float num5;$/;"	local	line:96
+prt5	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_2\main.c	/^	float prt5;$/;"	local	line:102
+prt4	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_2\main.c	/^	float prt4;$/;"	local	line:103
+prt3	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_2\main.c	/^	float prt3;$/;"	local	line:104
+prt2	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_2\main.c	/^	float prt2;$/;"	local	line:105
+prt1	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_2\main.c	/^	float prt1;$/;"	local	line:106
+pen	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_2\main.c	/^	FILE *pen;$/;"	local	line:117	type:FILE
+ReverseItAgain	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_2\main.c	/^void ReverseItAgain(){$/;"	function	line:129	signature:()	returns:void 
+c	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_2\main.c	/^	int c;$/;"	local	line:131
+fpReadFile	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_2\main.c	/^	FILE * fpReadFile;$/;"	local	line:133	type:FILE
+Pyramid	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_2\main.c	/^void Pyramid(int lines){$/;"	function	line:146	signature:(int lines)	returns:void 
+pyr	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_2\main.c	/^	FILE *pyr;$/;"	local	line:149	type:FILE
+row	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_2\main.c	/^	int row, space, symbol;$/;"	local	line:152
+space	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_2\main.c	/^	int row, space, symbol;$/;"	local	line:152
+symbol	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_2\main.c	/^	int row, space, symbol;$/;"	local	line:152
+main	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_2\main.c	/^int main()$/;"	function	line:173	signature:()	returns:int 
+factorial	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_2\main.c	/^	int factorial;$/;"	local	line:176
+pali	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_2\main.c	/^	long pali;$/;"	local	line:182
+bit	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_2\main.c	/^	int bit; $/;"	local	line:188
+line	C:\Users\Jonah Casinas\OneDrive\Desktop\Coding\C++\ECEGER2020\Lab_2\main.c	/^	int line;$/;"	local	line:200

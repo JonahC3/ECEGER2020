@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="ECEGER2020" Database="" Version="10000">
-  <Project Name="Lab_1" Path="Lab_1/Lab_1.project" Active="Yes"/>
+  <Project Name="Lab_1" Path="Lab_1/Lab_1.project" Active="No"/>
+  <Project Name="Lab_2" Path="Lab_2/Lab_2.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
       <Project Name="Lab_1" ConfigName="Debug"/>
+      <Project Name="Lab_2" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
       <Project Name="Lab_1" ConfigName="Release"/>
+      <Project Name="Lab_2" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
