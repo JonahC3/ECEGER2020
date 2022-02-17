@@ -1,0 +1,17 @@
+Number of students in class: 3
+
+ID number: 5678
+First name: Alvin
+Last name: Moser
+GPA: 10.000000
+
+ID number: 4321
+First name: Lola
+Last name: Duropan
+GPA: 4.000000
+
+ID number: 1234
+First name: Jonah
+Last name: Casinas
+GPA: 4.000000
+
