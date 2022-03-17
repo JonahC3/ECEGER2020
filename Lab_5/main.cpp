@@ -27,7 +27,7 @@ public:
 		}
 		//-------------------------
 		size2 = strlen(lastName);
-		this->lastName = new char[size+1];
+		this->lastName = new char[size2+1];
 		for(unsigned int i = 0; i < size2; i++){
 			this->lastName[i] = lastName[i];
 		} 
@@ -67,39 +67,26 @@ public:
 	void setID(int a){
 		ID = a;
 	}
-	void setfirstname(const char* firstName){
-		size = strlen(firstName);
-		this->firstName = new char[size+1];
-		for(unsigned int i = 0; i < size; i++){
-			this->firstName[i] = firstName[i];
+	void setfirstname(const char *firstName){
+		this->firstName = (char*) malloc(strlen(firstName)+1);
+		strcpy(this->firstName, firstName);
 		}
-	}
-	void setlastname(const char* lastName){
-		size2 = strlen(lastName);
-		this->lastName = new char[size2+1];
-		for(unsigned int i = 0; i < size2; i++){
-			this->lastName[i] = lastName[i];
+	void setlastname(const char *lastName){
+			this->lastName = (char*) malloc(strlen(lastName)+1);
+			strcpy(this->lastName, lastName);
 		}
-	}
 	void setGPA(float b){
 		GPA = b;
 	}
-
 	//----------------------Getting Functions------------
 	void getID(){
 		cout << ID << endl;
 	}
 	void getfirstname(){
-		for(unsigned int i = 0; i < size; i++){
-			cout << firstName[i];
-		}	
-		cout<< endl;
+		cout << firstName << endl;
 	}
 	void getlastname(){
-		for(unsigned int i = 0; i < size2; i++){
-			cout << lastName[i];
-		}	
-		cout<< endl;
+		cout << lastName << endl;
 	}
 	void getGPA(){
 		cout << GPA << endl;
@@ -119,7 +106,7 @@ void testStudents(){
 	student1.getlastname();
 	student1.getGPA();
 	cout<< endl;
-	
+
 	//testing constructors
 	Student student2(4321, "Barack", "Obama" , 5.0);
 	cout << "Student 2: " << endl;
