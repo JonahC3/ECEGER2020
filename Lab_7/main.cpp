@@ -962,22 +962,22 @@ void printProfessors(){
 					cout << "Tenured: yes" << endl;
 				}
 				if(professor->getDepartment() == 1){
-					cout << "Department: Engineering";
+					cout << "Department: Engineering"  << endl;
 				}
 				else if(professor->getDepartment() == 2){
-					cout << "Department: Math";
+					cout << "Department: Math"  << endl;
 				}
 				else if(professor->getDepartment() == 3){
-					cout << "Department: Chemistry";
+					cout << "Department: Chemistry" << endl;
 				}
 				else if(professor->getDepartment() == 4){
-					cout << "Department: Computer Science";
+					cout << "Department: Computer Science" << endl;
 				}
 				else if(professor->getDepartment() == 5){
-					cout << "Department: Theology";
+					cout << "Department: Theology" << endl;
 				}
 				else if(professor->getDepartment() == 6){
-					cout << "Department: Nursing";
+					cout << "Department: Nursing"  << endl;
 				}
 				count++;
 			}
